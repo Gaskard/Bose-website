@@ -1,0 +1,41 @@
+.whybuy {
+    padding-top: 120px;
+    &__title {
+        color: #292929;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 100% */
+        letter-spacing: -1.5px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 411px 497px;
+        column-gap: 111px;
+    }
+    &__advantages {
+        display: grid;
+        ul {
+            color: #292929;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%; /* 22.4px */
+        }
+        li {
+            list-style-type: none;
+            padding-bottom: 16px;
+        }
+    }
+    &__text {
+        color: #292929;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 168.75% */
+        padding-top: 40px;
+    }
+}

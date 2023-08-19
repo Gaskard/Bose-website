@@ -1,0 +1,38 @@
+.category {
+    padding-top: 120px;
+    &__title {
+        color: #292929;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 100% */
+        letter-spacing: -1.5px;
+    }
+    &__wrapper {
+        padding-top: 64px;
+    }
+    &__photo {
+        display: grid;
+        grid-template-columns: 675px 324px;
+        column-gap: 24px;
+        &-firstsmall {
+            display: grid;
+            grid-template-columns: 324px 675px;
+            column-gap: 24px;
+        }
+    }
+    &__chapter {
+        color: #292929;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 33.6px */
+        padding-top: 16px;
+    }
+    &__product {
+        padding-top: 64px;
+    }
+}
